@@ -48,14 +48,14 @@ printKata(3, checkUserCompany)
 
 // KATA 4 ~ Use the .find() method
 const findFirstOver38 = users
-    .find(users => users.age >= 38)
+    .find(users => users.age > 38)
 
 printKata(4, findFirstOver38)
 
 // KATA 5 ~ Use the .filter() and .find() methods
 const filterFindActive38 = users
     .filter(users => users.isActive)
-    .find(users => users.age >= 38)
+    .find(users => users.age > 38)
 
 printKata(5, filterFindActive38)
 
